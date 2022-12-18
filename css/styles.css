@@ -573,9 +573,10 @@ header {
 }
 
 .work-card {
-    width: 360px;  
+    width: 360px;
+    overflow: hidden;
     border: 0.5px solid #F4F4FD;
-
+    
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
