@@ -47,6 +47,8 @@ header {
     padding: 0;
 
     cursor: pointer;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 /* ============================== logo styles ============================== */
@@ -93,6 +95,8 @@ header {
     color: var(--main-title-color);
     text-decoration: none; 
     font-weight: 600;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .link:hover, 
@@ -109,6 +113,8 @@ header {
 
     color: var(--main-text-color);
     text-decoration: none;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .contacts-link:last-child {
@@ -408,6 +414,9 @@ header {
     color: #8E8F99;
     border-radius: 4px;
     cursor: pointer;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, 
+                outline 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .customers-icon {
@@ -537,6 +546,10 @@ header {
     text-align: center;
     
     cursor: pointer;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, 
+                background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+                box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .porfolio-button:hover,
@@ -562,6 +575,8 @@ header {
 .work-card {
     width: 360px;  
     border: 0.5px solid #F4F4FD;
+
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .work-card:hover {
