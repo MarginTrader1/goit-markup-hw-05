@@ -546,7 +546,6 @@ header {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
     0px 2px 1px rgba(0, 0, 0, 0.08), 
     0px 2px 2px rgba(0, 0, 0, 0.12);
-    
 } 
 
 /* ============================== примеры работ в портфолио ============================== */
@@ -566,13 +565,8 @@ header {
 }
 
 .work-card:hover {
-    background: var(--main-background-color);
+    background: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.3);
-
-    
-    position: relative;
-    bottom: 10px;
-    left: 10px;
 }
 
 .work-card-signature {
