@@ -688,6 +688,8 @@ header {
     height: 100%;
 
     background-color: rgba(0, 0, 0, 0.7);
+
+    transition: opacity 250ms var(--timing-animation);
 }
 
 .backdrop.is-hidden {
@@ -708,5 +710,38 @@ header {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
 
-    
+    transition: opacity 250ms var(--timing-animation);
+}
+
+.close-button {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0;
+    padding: 0;
+
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+
+    background-color: #E7E9FC;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: black;
+
+    cursor: pointer;
+
+    transition: box-shadow 250ms var(--timing-animation) 0ms;
+}
+
+.close-button:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.close-button-icon {
+    fill: currentColor;
 }
