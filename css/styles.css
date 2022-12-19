@@ -620,9 +620,11 @@ header {
     overflow: hidden;
 }
 
-.work-card-overlay::before {
-    content: "";
+.overlay {
     position: absolute;
+
+    top: 0;
+    left: 0;
 
     width: 100%;
     height: 100%;
@@ -632,22 +634,20 @@ header {
     transition: transform 250ms var(--timing-animation) 0ms;
 }
 
-.work-card:hover .work-card-overlay::before {
+.work-card:hover .overlay {
     transform: translateY(0);
 } 
 
 .overlay-signature {
-    margin: 0;
-    
     position: absolute;
-    top: 0;
-    left: 0;
+
+    margin: 0;
+    padding: 40px 24px;
+        
     color: #F4F4FD;
-    
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-   
 }
 
 .work-card-signature {
